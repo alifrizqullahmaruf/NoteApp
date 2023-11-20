@@ -3,9 +3,9 @@ package com.example.noteapp
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
-class DescActivity : AppCompatActivity() {
+class AddNoteActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_desc)
+        setContentView(R.layout.activity_add_note)
     }
 }

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This XML defines a drawable shape for a rectangle with rounded corners and an orange stroke. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
+    <!-- Specifies a stroke (border) for the shape with a width of 1dp and an orange color. -->
+    <stroke
+        android:width="1dp" android:color="@color/orange"/>
+
+    <!-- Specifies rounded corners for the shape with a radius of 8dp. -->
+    <corners
+        android:radius="8dp"/>
+</shape>
